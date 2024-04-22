@@ -1,15 +1,14 @@
 % clear
 % clc
 % 
-% %Keputusan lulus Tes
-% %nilai > 70 
-% %n = 70;
+%Keputusan lulus Tes
+% nilai > 70 
+% n = 70;
 % n = input ('Nilai = ');
 % if n > 70
 %     disp ('Selamat Anda Lulus');
 % end
 % disp ('Semangat, anda kurang beruntung');
-
 
 % %if... else
 % n = input('nilai = ');
@@ -74,3 +73,10 @@
 %         n = n + i;
 %     end
 % end
+
+%while
+n = 0;
+while n < 10
+    disp ('mengulang');
+    n = n + 1;
+end
